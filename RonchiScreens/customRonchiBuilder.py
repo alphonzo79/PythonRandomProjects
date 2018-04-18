@@ -26,7 +26,7 @@ while bottom < topEdge - margin:
 	if bottom + height > topEdge - margin:
 		height = topEdge - margin - bottom
 
-	resolution = 133
+	resolution = 132
 	if argIndex < len(sys.argv):
 		resolution = int(sys.argv[argIndex])
 	
